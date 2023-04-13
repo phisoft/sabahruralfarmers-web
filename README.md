@@ -3,5 +3,6 @@
 SabahRuralFarmers.org
 
 
-`Empowering Rural Farmers, Harvesting Sustainable Futures.`
+`Empowering Rural Farmers`
+`Harvesting Sustainable Futures.`
 
