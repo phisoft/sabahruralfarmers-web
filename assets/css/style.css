@@ -624,66 +624,85 @@ section {
 --------------------------------------------------------------*/
 
 #commitment{
-  /* position: absolute; */
-  width: 496px;
-  height: 126px;
-  /* left: 82px;
-  top: 1639px; */
-  margin-top: 40px;
+    font-size: 32px;
+    /* font-weight: 600; */
+    margin-bottom: 20px;
+    padding-bottom: 0;
   
-  font-family: 'Poppins';
+  font-family: 'Raleway, san-serif';
   font-style: normal;
+  padding-top: 10px;
   font-weight: 500;
-  font-size: 42px;
-  line-height: 63px;
-  color: #000000;
-  align-content: center;
+  font-size: 30px;
+  line-height:34px;
+  color: #1e6052;
+  /* align-content: center; */
 }
 
 #detailcommitment{
 /* position: absolute; */
-width: 488px;
-height: 76px;
+/* width: 488px;
+height: 76px; */
 /* left: 82px;
 top: 1775px; */
 
-font-family: 'Raleway';
-font-style: normal;
-font-weight: 400;
-font-size: 32px;
-line-height: 38px;
-align-content: center;
+font-family: 'Open Sans', sans-serif;
+font-style: italic;
+/* font-weight: 400; */
+font-size: 16px;
+line-height: 20px;
+text-align: center;
 
 color: #000000;
 }
 
 #vision{
-margin-top: 20px;
-width: 186px;
-height: 54px;
+  width: 218px;
+  height: 62px;
+margin-bottom: 10px;
 background: #1E6052;
-border-radius: 14px;
-font-family: 'Poppins';
+border-radius: 10px;
+font-family: 'Raleway, san-serif';
 font-style: normal;
-font-weight: 600;
-font-size: 28px;
+/* font-weight: 600; */
+font-size: 24px;
 line-height: 42px;
 color: white;
+padding: 0px 10px 0px 10px;
+
+background: #1E6052;
+  border: 0;
+  padding: 10px 30px;
+  color: #fff;
+}
+#descvision{
+  /* margin-left: 95px; */
+  line-height: 24px;
+  font-size: 14px;
 }
 
 #mission{
-  margin-top: 20px;
-width: 186px;
-height: 54px;
+width: 218px;
+height: 62px;
+margin-bottom: 10px;
 background: #1E6052;
-border-radius: 14px;
-font-family: 'Poppins';
+border-radius: 10px;
+font-family:  'Open Sans', sans-serif;
 font-style: normal;
 font-weight: 500;
 font-size: 28px;
 line-height: 42px;
 color: #FFFFFF;
+background: #1E6052;
+  border: 0;
+  padding: 10px 30px;
+  color: #fff;
 }
+#descmission{
+  line-height: 24px;
+  font-size: 14px;
+}
+
 .about {
   padding-bottom: 30px;
 }
@@ -1410,14 +1429,14 @@ color: #FFFFFF;
 }
 
 #footer {
-  background: #1e6052;
+  background: #1E6052;
   padding: 0 0 30px 0;
-  color: white;
+  color: black;
   font-size: 14px;
 }
 
 #footer .footer-top {
-  background: #1e6052;
+  background: #8AB5A1;
   border-top: 1px solid #768fa6;
   border-bottom: 1px solid #67839c;
   padding: 60px 0 30px 0;
@@ -1440,7 +1459,7 @@ color: #FFFFFF;
   line-height: 24px;
   margin-bottom: 0;
   font-family: "Raleway", sans-serif;
-  color: white;
+  color: black;
 }
 
 #footer .footer-top .social-links a {
@@ -1467,7 +1486,7 @@ color: #FFFFFF;
 #footer .footer-top h4 {
   font-size: 16px;
   font-weight: 600;
-  color: white;
+  color: black;
   position: relative;
   padding-bottom: 12px;
 }
