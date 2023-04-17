@@ -156,6 +156,18 @@ h6,
   margin-top: 70px;
 }
 
+@media (max-width: 767px) {
+
+  #header .logo h1 {
+    font-size: 24px;
+    letter-spacing: 2px;
+  }
+  
+  #header .logo img {
+    max-height: 70px;
+  }
+}
+
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
@@ -381,7 +393,7 @@ h6,
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: calc(100vh - 110px);
+  height: auto;
   padding: 0;
   overflow: hidden;
   background: #000;
@@ -429,24 +441,34 @@ h6,
 
   #hero,
   #hero .carousel-item {
-    height: calc(100vh - 70px);
+    height: 65vh;
   }
 
   #hero .carousel-content.container {
     padding: 0 50px;
   }
+
+  #hero h2 {
+    font-size: 40px;
+  }
+
+  #hero p {
+    font-size: 20px;
+  }
+
 }
 
 #hero h2 {
   font-family: "Poppins", sans-serif;
   color: #fff;
-  margin-bottom: 30px;
+  margin-bottom: 15px;
   font-size: 48px;
-  font-weight: 900;
+  font-weight: 800;
 }
 
 #hero p {
   font-weight: 600;
+  font-size: 26px;
   width: 80%;
   animation-delay: 0.4s;
   color: #fff;
@@ -518,30 +540,7 @@ h6,
   background: #1c5c93;
 }
 
-@media (max-width: 768px) {
-  #hero h2 {
-    font-size: 28px;
-  }
-}
 
-@media (max-height: 500px) {
-
-  #hero,
-  #hero .carousel-item {
-    height: 120vh;
-  }
-}
-
-@media (min-width: 1024px) {
-  #hero p {
-    width: 60%;
-  }
-
-  #hero .carousel-control-prev,
-  #hero .carousel-control-next {
-    width: 5%;
-  }
-}
 
 /*--------------------------------------------------------------
 # Sections General
@@ -634,7 +633,7 @@ section {
   padding-top: 10px;
   font-weight: 500;
   font-size: 42px;
-  line-height: 34px;
+  line-height: 40px;
   color: #000;
 }
 
