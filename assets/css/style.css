@@ -932,7 +932,9 @@ color: #FFFFFF;
 }
 
 .services .icon-box {
-  margin-bottom: 20px;
+  border: 1px solid #ddd; /* add a border with a 1px width and a gray color */
+  padding: 20px; /* add padding around the icon, title, and description */
+  margin-bottom: 20px; /* add some space between each column */
   text-align: center;
 }
 
@@ -1268,18 +1270,61 @@ color: #FFFFFF;
 --------------------------------------------------------------*/
 .faq {
   padding-bottom: 30px;
+  background-color: #f8f9fa;
 }
 
-.faq .faq-item {
-  margin-bottom: 40px;
+.faq .accordion-item {
+  margin-bottom: 8px;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 5px;
 }
 
-.faq .faq-item h4 {
+.faq .accordion-item h4 {
   font-size: 20px;
   line-height: 28px;
   font-weight: 600;
   margin-bottom: 15px;
   color: #1f3548;
+}
+
+.faq .accordion-item .accordion-header {
+  padding: 20px;
+  cursor: pointer;
+  background-color: #f8f9fa;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.faq .accordion-item .accordion-header:focus {
+  outline: none;
+}
+
+.faq .accordion-item .accordion-header:hover {
+  background-color: #e9ecef;
+}
+
+.faq .accordion-item .accordion-header:before {
+  /*content: "\e75c"; /* caret-down-fill icon */
+  float: right;
+  font-family: "BootstrapIcons";
+  font-weight: 900;
+  font-size: 18px;
+  margin-right: 10px;
+  color: #41a18f;
+}
+
+.faq .accordion-item .accordion-header.collapsed:before {
+  /*content: "\e75b"; /* caret-up-fill icon */
+  color: #6c757d;
+}
+
+
+
+.faq .accordion-item .accordion-collapse {
+  background-color: #f8f9fa;
+}
+
+.faq .accordion-item .accordion-body {
+  padding: 20px;
 }
 
 /*--------------------------------------------------------------
