@@ -10,7 +10,7 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Raleway", sans-serif;
   color: #444;
 }
 
@@ -31,7 +31,7 @@ h4,
 h5,
 h6,
 .font-primary {
-  font-family: "Raleway", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 /*--------------------------------------------------------------
@@ -90,16 +90,16 @@ h6,
 
 #topbar .contact-info a {
   line-height: 0;
-  color: #444;
+  color: #1E6052;
   transition: 0.3s;
 }
 
 #topbar .contact-info a:hover {
-  color: #428bca;
+  color: #1E6052;
 }
 
 #topbar .contact-info i {
-  color: #428bca;
+  color: #1E6052;
   line-height: 0;
   margin-right: 5px;
 }
@@ -109,7 +109,7 @@ h6,
 }
 
 #topbar .social-links a {
-  color: #5c768d;
+  color: #1E6052;
   padding: 4px 12px;
   display: inline-block;
   line-height: 1px;
@@ -117,7 +117,7 @@ h6,
 }
 
 #topbar .social-links a:hover {
-  color: #428bca;
+  color: #1E6052;
 }
 
 /*--------------------------------------------------------------
@@ -184,9 +184,9 @@ h6,
   align-items: center;
   justify-content: space-between;
   padding: 10px 0 10px 30px;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 15px;
-  color: #5c768d;
+  color: #1E6052;
   white-space: nowrap;
   transition: 0.3s;
 }
@@ -438,6 +438,7 @@ h6,
 }
 
 #hero h2 {
+  font-family: "Poppins", sans-serif;
   color: #fff;
   margin-bottom: 30px;
   font-size: 48px;
@@ -445,6 +446,7 @@ h6,
 }
 
 #hero p {
+  font-weight: 600;
   width: 80%;
   animation-delay: 0.4s;
   color: #fff;
@@ -496,7 +498,7 @@ h6,
 
 #hero .btn-get-started {
   font-family: "Raleway", sans-serif;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 14px;
   letter-spacing: 1px;
   display: inline-block;
@@ -623,36 +625,26 @@ section {
 # About Us
 --------------------------------------------------------------*/
 
-#commitment{
-  /* font-weight: 600; */
+#commitment {
+  text-align: left;
   margin-bottom: 20px;
   padding-bottom: 0;
-  
-  font-family: 'Raleway, san-serif';
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   padding-top: 10px;
-  font-weight: 400;
-  font-size: 30px;
-  line-height:34px;
-  color: #1e6052;
-  text-align: center;
+  font-weight: 500;
+  font-size: 42px;
+  line-height: 34px;
+  color: #000;
 }
 
-#detailcommitment{
-/* position: absolute; */
-/* width: 488px;
-height: 76px; */
-/* left: 82px;
-top: 1775px; */
-
-font-family: 'Open Sans', sans-serif;
-font-style: italic;
-/* font-weight: 400; */
-font-size: 16px;
-line-height: 20px;
-text-align: center;
-
-color: #000000;
+#detailcommitment {
+  text-align: left;
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-size: 28px;
+  line-height: 34px;
+  color: #000000;
 }
 
 #vision{
@@ -661,9 +653,9 @@ height: 62px;
 margin-bottom: 10px;
 background: #1E6052;
 border-radius: 10px;
-font-family:  'Open Sans', sans-serif;
+font-family:  'Poppins', sans-serif;
 font-style: normal;
-/* font-weight: 600; */
+font-weight: 500; 
 font-size: 28px;
 line-height: 42px;
 color: white;
@@ -675,6 +667,7 @@ padding: 10px 30px;
 color: #fff;
 cursor: text;
 }
+
 #descvision{
   /* margin-left: 95px; */
   line-height: 24px;
@@ -687,7 +680,7 @@ height: 62px;
 margin-bottom: 10px;
 background: #1E6052;
 border-radius: 10px;
-font-family:  'Open Sans', sans-serif;
+font-family:  'Poppins', sans-serif;
 font-style: normal;
 font-weight: 500;
 font-size: 28px;
@@ -704,8 +697,30 @@ background: #1E6052;
   font-size: 14px;
 }
 
+@media only screen and (max-width: 767px) {
+  #vision, #mission {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  #vision {
+    background-color: #1E6052;
+    color: #FFFFFF;
+  }
+  
+  #mission {
+    background-color: #1E6052;
+    color: #FFFFFF;
+  }
+  
+  #descvision, #descmission {
+    font-size: 16px;
+  }
+}
+
 .about {
-  padding-bottom: 30px;
+  padding-bottom: 50px;
 }
 
 .about .container {
@@ -717,7 +732,8 @@ background: #1E6052;
 }
 
 .about .section-title p {
-  text-align: left;
+  font-size: 16px;
+  text-align: justify;
   font-style: italic;
   color: #666;
 }
@@ -940,7 +956,7 @@ background: #1E6052;
 .counts .count-box p {
   padding: 0;
   margin: 0;
-  font-family: "Raleway", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 14px;
 }
 
@@ -1504,7 +1520,7 @@ background: #1E6052;
   font-size: 14px;
   line-height: 24px;
   margin-bottom: 0;
-  font-family: "Raleway", sans-serif;
+  font-family: "Poppins", sans-serif;
   color: white;
 }
 
