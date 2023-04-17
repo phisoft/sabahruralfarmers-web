@@ -624,19 +624,18 @@ section {
 --------------------------------------------------------------*/
 
 #commitment{
-    font-size: 32px;
-    /* font-weight: 600; */
-    margin-bottom: 20px;
-    padding-bottom: 0;
+  /* font-weight: 600; */
+  margin-bottom: 20px;
+  padding-bottom: 0;
   
   font-family: 'Raleway, san-serif';
   font-style: normal;
   padding-top: 10px;
-  font-weight: 500;
+  font-weight: 400;
   font-size: 30px;
   line-height:34px;
   color: #1e6052;
-  /* align-content: center; */
+  text-align: center;
 }
 
 #detailcommitment{
@@ -657,23 +656,24 @@ color: #000000;
 }
 
 #vision{
-  width: 218px;
-  height: 62px;
+width: 218px;
+height: 62px;
 margin-bottom: 10px;
 background: #1E6052;
 border-radius: 10px;
-font-family: 'Raleway, san-serif';
+font-family:  'Open Sans', sans-serif;
 font-style: normal;
 /* font-weight: 600; */
-font-size: 24px;
+font-size: 28px;
 line-height: 42px;
 color: white;
 padding: 0px 10px 0px 10px;
 
 background: #1E6052;
-  border: 0;
-  padding: 10px 30px;
-  color: #fff;
+border: 0;
+padding: 10px 30px;
+color: #fff;
+cursor: text;
 }
 #descvision{
   /* margin-left: 95px; */
@@ -697,6 +697,7 @@ background: #1E6052;
   border: 0;
   padding: 10px 30px;
   color: #fff;
+  cursor: text;
 }
 #descmission{
   line-height: 24px;
@@ -1431,12 +1432,12 @@ background: #1E6052;
 #footer {
   background: #1E6052;
   padding: 0 0 30px 0;
-  color: black;
+  color: white;
   font-size: 14px;
 }
 
 #footer .footer-top {
-  background: #8AB5A1;
+  background: #1E6052;
   border-top: 1px solid #768fa6;
   border-bottom: 1px solid #67839c;
   padding: 60px 0 30px 0;
@@ -1459,7 +1460,7 @@ background: #1E6052;
   line-height: 24px;
   margin-bottom: 0;
   font-family: "Raleway", sans-serif;
-  color: black;
+  color: white;
 }
 
 #footer .footer-top .social-links a {
@@ -1486,7 +1487,7 @@ background: #1E6052;
 #footer .footer-top h4 {
   font-size: 16px;
   font-weight: 600;
-  color: black;
+  color: white;
   position: relative;
   padding-bottom: 12px;
 }
