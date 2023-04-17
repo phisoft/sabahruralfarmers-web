@@ -463,7 +463,7 @@ h6,
   color: #fff;
   margin-bottom: 15px;
   font-size: 48px;
-  font-weight: 800;
+  font-weight: 600;
 }
 
 #hero p {
@@ -472,6 +472,7 @@ h6,
   width: 80%;
   animation-delay: 0.4s;
   color: #fff;
+  line-height: 29px;
 }
 
 #hero .carousel-inner .carousel-item {
