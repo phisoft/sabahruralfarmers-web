@@ -629,15 +629,19 @@ section {
   padding-bottom: 50px;
 }
 
-.about .container {
-  box-shadow: 0 5px 25px 0 rgba(214, 215, 216, 0.6);
-}
-
 .about .video-box img {
   width: 100%;
   height: auto;
   padding: 15px;
   max-width: 100%;
+}
+
+.about .section-title h2 {
+  text-align: left;
+}
+
+.black-text {
+  color: black;
 }
 
 
@@ -652,52 +656,10 @@ section {
   padding: 40px;
 }
 
-.about .icon-box+.icon-box {
-  margin-top: 40px;
-}
-
-.about .icon-box .icon {
-  float: left;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 72px;
-  height: 72px;
-  /* background: #f1f7fb; */
-  background: #8AB5A1;
-  border-radius: 6px;
-  transition: 0.5s;
-}
-
 .about .icon-box .icon i {
   /* color: #428bca; */
   color: #1E6052;
   font-size: 32px;
-}
-
-.about .icon-box:hover .icon {
-  background: #1E6052;
-}
-
-.about .icon-box:hover .icon i {
-  color: #fff;
-}
-
-.about .icon-box .title {
-  margin-left: 95px;
-  font-weight: 700;
-  margin-bottom: 10px;
-  font-size: 18px;
-  text-transform: uppercase;
-}
-
-.about .icon-box .title a {
-  color: #343a40;
-  transition: 0.3s;
-}
-
-.about .icon-box .title a:hover {
-  color: #428bca;
 }
 
 .about .icon-box .description {
@@ -794,6 +756,26 @@ section {
     opacity: 0;
   }
 }
+
+.icon-box {
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  text-align: left;
+}
+
+.icon {
+  color: #1E6052;
+  font-size: 28px;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+}
+
+.title {
+  margin-top: 5px;
+}
+
 
 #commitment {
   text-align: left;
