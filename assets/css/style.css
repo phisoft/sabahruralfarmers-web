@@ -757,7 +757,7 @@ section {
   }
 }
 
-.icon-box {
+.about .icon-box {
   padding-top: 30px;
   display: flex;
   flex-direction: column;
@@ -765,14 +765,14 @@ section {
   text-align: left;
 }
 
-.icon {
+.about .icon {
   color: #1E6052;
   font-size: 28px;
   font-family: "Poppins", sans-serif;
   font-weight: bold;
 }
 
-.title {
+.about git .title {
   margin-top: 5px;
 }
 
@@ -983,6 +983,7 @@ background: #1E6052;
 .services .icon i {
   font-size: 36px;
   line-height: 0;
+  align-items: center;
 }
 
 .services .icon-box:hover .icon {
