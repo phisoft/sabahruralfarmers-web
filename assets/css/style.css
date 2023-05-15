@@ -626,7 +626,7 @@ section {
 --------------------------------------------------------------*/
 
 .about {
-  padding-bottom: 50px;
+  padding-bottom: 30px;
 }
 
 .about .video-box img {
@@ -776,8 +776,30 @@ section {
   margin-top: 5px;
 }
 
+/*--------------------------------------------------------------
+# Vision and Mission
+--------------------------------------------------------------*/
+.vision .section-title h2 {
+  text-align: left;
+}
 
-#commitment {
+.black-text {
+  color: black;
+}
+
+.vision {
+  background-color: #f8f9fa;
+}
+
+.vision .video-box img {
+  width: 100%;
+  height: auto;
+  padding: 15px;
+  max-width: 100%;
+  padding-left: 20px;
+}
+
+.vision #commitment {
   text-align: left;
   margin-bottom: 20px;
   padding-bottom: 0;
@@ -790,7 +812,7 @@ section {
   color: #000;
 }
 
-#detailcommitment {
+.vision #detailcommitment {
   text-align: left;
   font-family: 'Raleway', sans-serif;
   font-style: normal;
@@ -799,7 +821,7 @@ section {
   color: #000000;
 }
 
-#vision{
+.vision #vision{
 width: 218px;
 height: 62px;
 margin-bottom: 10px;
@@ -820,13 +842,13 @@ color: #fff;
 cursor: text;
 }
 
-#descvision{
+.vision #descvision{
   /* margin-left: 95px; */
   line-height: 24px;
   font-size: 14px;
 }
 
-#mission{
+.vision #mission{
 width: 218px;
 height: 62px;
 margin-bottom: 10px;
@@ -844,10 +866,42 @@ background: #1E6052;
   color: #fff;
   cursor: text;
 }
-#descmission{
+
+.vision #descmission{
   line-height: 24px;
   font-size: 14px;
 }
+
+.rounded-nav {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.rounded-nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.rounded-nav li {
+  margin: 0 10px;
+}
+
+.rounded-nav a {
+  display: block;
+  padding: 10px 15px;
+  border-radius: 30px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.rounded-nav a:hover {
+  background-color: #555;
+}
+
 
 @media only screen and (max-width: 767px) {
   #vision, #mission {
@@ -870,6 +924,7 @@ background: #1E6052;
     font-size: 16px;
   }
 }
+
 /*--------------------------------------------------------------
 # About Lists
 --------------------------------------------------------------*/
