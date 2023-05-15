@@ -757,7 +757,7 @@ section {
   }
 }
 
-.icon-box {
+.about .icon-box {
   padding-top: 30px;
   display: flex;
   flex-direction: column;
@@ -765,14 +765,14 @@ section {
   text-align: left;
 }
 
-.icon {
+.about .icon {
   color: #1E6052;
   font-size: 28px;
   font-family: "Poppins", sans-serif;
   font-weight: bold;
 }
 
-.title {
+.about .title {
   margin-top: 5px;
 }
 
