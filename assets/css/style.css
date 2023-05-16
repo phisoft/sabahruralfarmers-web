@@ -59,7 +59,7 @@ h6,
 }
 
 .back-to-top:hover {
-  background: #629fd3;
+  background: #8AB5A1;
   color: #fff;
 }
 
@@ -142,7 +142,7 @@ h6,
 
 #header .logo h1 a,
 #header .logo h1 a:hover {
-  color: #1c5c93;
+  color: #8AB5A1;
   text-decoration: none;
 }
 
@@ -248,7 +248,7 @@ h6,
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
 .navbar .dropdown ul li:hover>a {
-  color: #428bca;
+  color: #1E6052;
 }
 
 .navbar .dropdown:hover>ul {
@@ -346,7 +346,7 @@ h6,
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover>a {
-  color: #428bca;
+  color: #1E6052;
 }
 
 .navbar-mobile .getstarted,
@@ -381,7 +381,7 @@ h6,
 .navbar-mobile .dropdown ul a:hover,
 .navbar-mobile .dropdown ul .active:hover,
 .navbar-mobile .dropdown ul li:hover>a {
-  color: #428bca;
+  color: #1E6052;
 }
 
 .navbar-mobile .dropdown>.dropdown-active {
@@ -538,7 +538,7 @@ h6,
 }
 
 #hero .btn-get-started:hover {
-  background: #1c5c93;
+  background: #46e9c6;
 }
 
 
@@ -629,15 +629,19 @@ section {
   padding-bottom: 50px;
 }
 
-.about .container {
-  box-shadow: 0 5px 25px 0 rgba(214, 215, 216, 0.6);
-}
-
 .about .video-box img {
   width: 100%;
   height: auto;
   padding: 15px;
   max-width: 100%;
+}
+
+.about .section-title h2 {
+  text-align: left;
+}
+
+.black-text {
+  color: black;
 }
 
 
@@ -652,52 +656,10 @@ section {
   padding: 40px;
 }
 
-.about .icon-box+.icon-box {
-  margin-top: 40px;
-}
-
-.about .icon-box .icon {
-  float: left;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 72px;
-  height: 72px;
-  /* background: #f1f7fb; */
-  background: #8AB5A1;
-  border-radius: 6px;
-  transition: 0.5s;
-}
-
 .about .icon-box .icon i {
   /* color: #428bca; */
   color: #1E6052;
   font-size: 32px;
-}
-
-.about .icon-box:hover .icon {
-  background: #428bca;
-}
-
-.about .icon-box:hover .icon i {
-  color: #fff;
-}
-
-.about .icon-box .title {
-  margin-left: 95px;
-  font-weight: 700;
-  margin-bottom: 10px;
-  font-size: 18px;
-  text-transform: uppercase;
-}
-
-.about .icon-box .title a {
-  color: #343a40;
-  transition: 0.3s;
-}
-
-.about .icon-box .title a:hover {
-  color: #428bca;
 }
 
 .about .icon-box .description {
@@ -794,6 +756,26 @@ section {
     opacity: 0;
   }
 }
+
+.about .icon-box {
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  text-align: left;
+}
+
+.about .icon {
+  color: #1E6052;
+  font-size: 28px;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+}
+
+.about .title {
+  margin-top: 5px;
+}
+
 
 #commitment {
   text-align: left;
@@ -1486,7 +1468,7 @@ background: #1E6052;
 }
 
 .contact .php-email-form button[type=submit]:hover {
-  background: #629fd3;
+  background: #8AB5A1;
 }
 
 @keyframes animate-loading {
@@ -1549,7 +1531,7 @@ background: #1E6052;
 }
 
 #footer .footer-top .social-links a:hover {
-  background: #428bca;
+  background: #8AB5A1;
   color: #fff;
   text-decoration: none;
 }
@@ -1597,7 +1579,7 @@ background: #1E6052;
 }
 
 #footer .footer-top .footer-links ul a:hover {
-  color: #9eccf4;
+  color: #8AB5A1;
 }
 
 #footer .footer-top .footer-newsletter form {
