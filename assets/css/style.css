@@ -779,133 +779,49 @@ section {
 /*--------------------------------------------------------------
 # Vision and Mission
 --------------------------------------------------------------*/
-.vision .section-title h2 {
-  font-size: 50px;
-  text-align: left;
-  padding-left: 100px;
-  padding-bottom: 10px;
-}
-
-.vision .black-text {
-  color: black;
-}
-
-.vision {
-  background-color: #f8f9fa;
-}
-
-.col-md-4 {
-  margin-bottom: 20px;
-}
-
-.col-md-5 h3 {
-  font-weight: 600;
-}
-
-.col-md-5 i {
-  margin-right: 5px;
-  color:#1E6052;
-}
-
-.col-md-4 p {
-  font-size: 16px;
-}
-
-
-.vision .video-box img {
-  width: 100%;
-  height: auto;
-  padding: 15px;
-  max-width: 100%;
-  padding-left: 20px;
-}
-
-.vision #commitment {
-  text-align: left;
-  margin-bottom: 20px;
-  padding-bottom: 0;
-  font-family: "Poppins", sans-serif;
-  font-style: normal;
-  padding-top: 10px;
-  font-weight: 500;
-  font-size: 42px;
-  line-height: 40px;
-  color: #000;
-}
-
-.vision #detailcommitment {
-  text-align: left;
-  font-family: 'Raleway', sans-serif;
-  font-style: normal;
-  font-size: 28px;
-  line-height: 34px;
-  color: #000000;
-}
-
-.vision #vision{
-width: 218px;
-height: 62px;
-margin-bottom: 10px;
-background: #1E6052;
-border-radius: 10px;
-font-family:  'Poppins', sans-serif;
-font-style: normal;
-font-weight: 500; 
-font-size: 28px;
-line-height: 42px;
-color: white;
-padding: 0px 10px 0px 10px;
-
-background: #1E6052;
-border: 0;
-padding: 10px 30px;
-color: #fff;
-cursor: text;
-}
-
-.vision #descvision{
-  /* margin-left: 95px; */
-  line-height: 24px;
-  font-size: 14px;
-}
-
-.vision #mission{
-width: 218px;
-height: 62px;
-margin-bottom: 10px;
-background: #1E6052;
-border-radius: 10px;
-font-family:  'Poppins', sans-serif;
-font-style: normal;
-font-weight: 500;
-font-size: 28px;
-line-height: 42px;
-color: #FFFFFF;
-background: #1E6052;
-  border: 0;
-  padding: 10px 30px;
-  color: #fff;
-  cursor: text;
-}
-
-.vision #descmission{
-  line-height: 24px;
-  font-size: 14px;
-}
-
-@media only screen and (max-width: 767px) {
-  .vision .section-title h2 {
-    font-size: 40px;
-    text-align: left;
-    padding-left: 0px;
-    padding-bottom: 10px;
+  .vision {
+    text-align: center;
+    background-color: #f8f9fa;
   }
-
-  .col-md-5 p {
+ 
+  .vision h1 {
+    font-size: 48px;
+    font-weight: 600;
     padding-bottom: 15px;
   }
   
-}
+  .vision h2 {
+    font-size: 28px;
+    padding-bottom: 30px;
+  }
+
+  .vision .col-md-6 {
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+    padding: 10px;
+  }
+
+  .vision .box {
+    text-align: left;
+    margin-bottom: 20px;
+  }
+
+  .vision .box i {
+      font-size: 18px;
+      margin: 0;
+      color: #ffff;
+  }
+
+  .vision .box h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+ 
+  .vision .box p {
+    font-size: 14px;
+    color: #666;
+  }
 
 /*--------------------------------------------------------------
 # About Lists
