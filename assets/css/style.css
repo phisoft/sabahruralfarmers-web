@@ -785,14 +785,17 @@ section {
   }
  
   .vision h1 {
-    font-size: 48px;
+    font-size: 32px;
     font-weight: 600;
     padding-bottom: 15px;
+    
   }
   
   .vision h2 {
-    font-size: 28px;
-    padding-bottom: 30px;
+    font-size: 20px;
+    font-weight: 400;
+    padding-bottom: 45px;
+    line-height: 28px;
   }
 
   .vision .col-md-6 {
@@ -810,17 +813,55 @@ section {
   .vision .box i {
       font-size: 18px;
       margin: 0;
-      color: #ffff;
+      color: #FFFF;
   }
 
   .vision .box h3 {
-    font-size: 18px;
-    margin-bottom: 10px;
+    color: #1E6052;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 0px;
   }
  
   .vision .box p {
     font-size: 14px;
     color: #666;
+    margin-left: 65px;
+  }
+
+  .vision .col-2 .icon {
+    background-color: #1E6052;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0px 0 25px rgba(0, 0, 0, 0.15);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    transition: all 0.3s ease-in-out;
+  }
+
+  @media (max-width: 845px) {
+    .vision .box h3 {
+      padding-left: 20px;
+      margin-bottom: 0px;
+    }
+   
+    .vision .box p {
+      margin-left: 63px;
+    }
+  }
+
+  @media (max-width: 765px) {
+    .vision .box h3 {
+      padding-left: 0px;
+      margin-bottom: 0px;
+    }
+   
+    .vision .box p {
+      margin-left: 63px;
+    }
   }
 
 /*--------------------------------------------------------------
@@ -974,6 +1015,7 @@ section {
   line-height: 24px;
   font-size: 14px;
 }
+
 
 /*--------------------------------------------------------------
 # Our Portfolio
