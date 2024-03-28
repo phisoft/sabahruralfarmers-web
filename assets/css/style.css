@@ -84,8 +84,9 @@ h6,
   background: #fff;
   border-bottom: 1px solid #eee;
   font-size: 15px;
-  height: 40px;
-  padding: 0;
+  height: 50px;
+  padding-bottom: 20px;
+  padding-top: 20px;
 }
 
 #topbar .contact-info a {
@@ -119,6 +120,28 @@ h6,
 #topbar .social-links a:hover {
   color: #1E6052;
 }
+
+.contact-info a:hover {
+  /* background: #8AB5A1; */
+  color: #fff;
+}
+
+.contact-info.active {
+  visibility: visible;
+  opacity: 1;
+}
+
+@media screen and (max-width: 768px) {
+  #topbar {
+    background: #fff;
+    border-bottom: 1px solid #eee;
+    font-size: 10px;
+    height: 50px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+  }
+}
+
 
 /*--------------------------------------------------------------
 # Header
