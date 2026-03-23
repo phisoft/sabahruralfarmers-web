@@ -581,33 +581,61 @@ h6,
 
 
 /*--------------------------------------------------------------
-# Sections General
+# Back to top button
 --------------------------------------------------------------*/
-section {
-  padding: 60px 0;
-  overflow: hidden;
+.back-to-top {
+  position: fixed;
+  visibility: hidden;
+  opacity: 0;
+  right: 15px;
+  bottom: 15px;
+  z-index: 996;
+  background: var(--primary-color);
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  transition: all 0.4s;
+}
+.back-to-top i {
+  font-size: 24px;
+  color: #fff;
+  line-height: 0;
+}
+.back-to-top:hover {
+  background: #5fcf80;
+  color: #fff;
+}
+.back-to-top.active {
+  visibility: visible;
+  opacity: 1;
 }
 
-.section-bg {
-  background-color: #8AB5A170;
-}
-
-.section-title {
+/*--------------------------------------------------------------
+# Floating WhatsApp Button
+--------------------------------------------------------------*/
+.whatsapp-float {
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  bottom: 90px;
+  right: 20px;
+  background-color: #25d366;
+  color: #fff;
+  border-radius: 50%;
   text-align: center;
-  padding-bottom: 30px;
+  font-size: 36px;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 100;
+  transition: all 0.3s ease;
 }
 
-.section-title h2 {
-  font-size: 32px;
-  font-weight: 600;
-  margin-bottom: 20px;
-  padding-bottom: 0;
-  /* color: #5c768d; */
-  color: #1E6052;
+.whatsapp-float:hover {
+  background-color: #128C7E;
+  transform: scale(1.1);
 }
 
-.section-title p {
-  margin-bottom: 0;
+.whatsapp-float i {
+  margin-top: 7px;
 }
 
 /*--------------------------------------------------------------
