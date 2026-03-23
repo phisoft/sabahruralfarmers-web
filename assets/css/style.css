@@ -604,7 +604,7 @@ p, .description, .about-lists .content-item p, .about .section-title p, .vision 
 
 #hero .carousel-item::before {
   content: "";
-  background-color: rgba(13, 30, 45, 0.6);
+  background: linear-gradient(135deg, rgba(30, 96, 82, 0.72) 0%, rgba(13, 30, 45, 0.58) 55%, rgba(0, 0, 0, 0.45) 100%);
   position: absolute;
   height: 100%;
   width: 100%;
