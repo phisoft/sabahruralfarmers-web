@@ -242,4 +242,104 @@
    */
   new PureCounter();
 
+  /**
+   * Enhanced scroll animations
+   */
+  const enhancedScrollAnimations = () => {
+    const elements = document.querySelectorAll('.section-title h2, .section-title p, .icon-box, .count-box, .service-box, .faq .accordion-item');
+    
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.style.opacity = '1';
+          entry.target.style.transform = 'translateY(0)';
+        }
+      });
+    }, {
+      threshold: 0.1,
+      rootMargin: '0px 0px -50px 0px'
+    });
+
+    elements.forEach(el => {
+      el.style.opacity = '0';
+      el.style.transform = 'translateY(20px)';
+      el.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+      observer.observe(el);
+    });
+  };
+
+  window.addEventListener('load', enhancedScrollAnimations);
+
+  /**
+   * Enhanced mobile navigation
+   */
+  const enhanceMobileNav = () => {
+    const navbar = select('#navbar');
+    const mobileNavToggle = select('.mobile-nav-toggle');
+    
+    if (navbar && mobileNavToggle) {
+      // Add smooth transition for mobile nav
+      navbar.style.transition = 'all 0.3s ease';
+      
+      // Close mobile nav when clicking on a link
+      const navLinks = select('.navbar-mobile a', true);
+      navLinks.forEach(link => {
+        link.addEventListener('click', () => {
+          navbar.classList.remove('navbar-mobile');
+          mobileNavToggle.classList.remove('bi-x');
+          mobileNavToggle.classList.add('bi-list');
+        });
+      });
+    }
+  };
+
+  window.addEventListener('load', enhanceMobileNav);
+
+  /**
+   * Enhanced form interactions
+   */
+  const enhanceFormInteractions = () => {
+    const formInputs = select('.php-email-form input, .php-email-form textarea', true);
+    
+    formInputs.forEach(input => {
+      input.addEventListener('focus', () => {
+        input.parentElement.classList.add('focused');
+      });
+      
+      input.addEventListener('blur', () => {
+        if (input.value === '') {
+          input.parentElement.classList.remove('focused');
+        }
+      });
+    });
+  };
+
+  window.addEventListener('load', enhanceFormInteractions);
+
+  /**
+   * Enhanced accordion functionality
+   */
+  const enhanceAccordions = () => {
+    const accordions = select('.faq .accordion-header', true);
+    
+    accordions.forEach(header => {
+      header.addEventListener('click', () => {
+        // Smooth scroll to accordion if needed
+        const rect = header.getBoundingClientRect();
+        const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+        const elementTop = rect.top + scrollTop;
+        const offset = 100;
+        
+        if (elementTop - scrollTop < 200) {
+          window.scrollTo({
+            top: elementTop - offset,
+            behavior: 'smooth'
+          });
+        }
+      });
+    });
+  };
+
+  window.addEventListener('load', enhanceAccordions);
+
 })()
